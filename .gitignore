@@ -1,0 +1,101 @@
+# =============================================================
+# sarubyte .gitignore  
+# =============================================================
+
+# --- build output -------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+artifacts/
+publish/
+[Pp]ublish/
+
+# --- nuget --------------------------------------------------
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/[Pp]ackages/build/
+
+# --- tests -------------------------------------
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+coverage/
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+lcov.info
+BenchmarkDotNet.Artifacts/
+
+# --- Visual Studio ------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# --- JetBrains Rider / IntelliJ -----------------------------
+.idea/
+*.sln.iml
+
+# --- Visual Studio Code -------------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- logs -------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# --- secrets ------------------------------
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+launchSettings.json.user
+secrets.json
+*.pfx
+*.snk
+
+# --- node/npm ---------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tgz
+.npm/
+
+npm/**/bin/
+npm/**/dist/
+
+# --- os ------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+*.generated.*
+tests/**/TestData/large/
