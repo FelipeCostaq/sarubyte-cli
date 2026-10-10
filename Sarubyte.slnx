@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Sarubyte.Cli/Sarubyte.Cli.csproj" />
+    <Project Path="src/Sarubyte.Core/Sarubyte.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Sarubyte.Cli.Tests/Sarubyte.Cli.Tests.csproj" />
+    <Project Path="tests/Sarubyte.Core.Tests/Sarubyte.Core.Tests.csproj" />
+  </Folder>
+</Solution>
