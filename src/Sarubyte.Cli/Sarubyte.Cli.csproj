@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sarubyte.Core\Sarubyte.Core.csproj" />
+    <InternalsVisibleTo Include="Sarubyte.Cli.Tests" />
   </ItemGroup>
 
   <ItemGroup>
